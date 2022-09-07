@@ -1,0 +1,30 @@
+.attribution{
+    background-color:hsl(220, 15%, 55%);
+    display: flex;
+}
+/* body{
+    width:1440px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+} */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+}
+.card-container img{
+    width: 180px;
+    height: 180px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 18px;
+}
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
